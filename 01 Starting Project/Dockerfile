@@ -1,8 +1,8 @@
-FROM node:20-alpine
+FROM node:25
 
 ENV MONGODB_CONNECTION_PROTOCOL: mongodb+srv
 ENV MONGODB_DB_NAME gha-demo1
-ENV MONGODB_CLUSTER_ADDRESS: samplecluster.npslotd.mongodb.net
+ENV MONGODB_CLUSTER_ADDRESS samplecluster.npslotd.mongodb.net
 ENV MONGODB_USERNAME maximilian
 ENV MONGODB_PASSWORD eI3R3UfNlJgWJe17
 
